@@ -1,0 +1,34 @@
+# Welcome to Jekyll!
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Errant SRD
+email: your-email@example.com
+description: "The Errant RPG System Reference Document"
+baseurl: "/errantsrd" # the subpath of your site, e.g. /blog
+url: "https://vqvz.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: KillJesterGames
+github_username: KillJesterGames
+
+# Build settings
+theme: just-the-docs
+color_scheme: dark
+  
+# Aux links for the upper right navigation
+aux_links:
+  "KillJester":
+    - "//www.killjester.com"
+
+plugins:
+  - jekyll-feed
+
+exclude:
+  - GemFile
+  - Gemfile.lock
